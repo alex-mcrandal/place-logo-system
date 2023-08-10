@@ -1,0 +1,39 @@
+{
+	"useJSONModel": true,
+	"itemClasses": ["backpack", "bag", "cap", "drinkware", "hat", "top", "top hooded"],
+	"backpack": {
+		"width": 250,
+		"top": 45,
+		"left": 40
+	},
+	"bag": {
+		"width": 250,
+		"top": 65,
+		"left": 40
+	},
+	"cap": {
+		"width": 250,
+		"top": 65,
+		"left": 39
+	},
+	"drinkware": {
+		"width": 250,
+		"top": 35,
+		"left": 39
+	},
+	"hat": {
+		"width": 300,
+		"top": 50,
+		"left": 37.5
+	},
+	"top": {
+		"width": 125,
+		"top": 30,
+		"left": 55
+	},
+	"top hooded": {
+		"width": 100,
+		"top": 35,
+		"left": 57
+	}
+}

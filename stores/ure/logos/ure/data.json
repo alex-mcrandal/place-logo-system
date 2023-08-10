@@ -1,0 +1,44 @@
+{
+	"embroidery": {
+		"0,0,0": "ure-white-logo.png",
+		"108,104,104": "ure-white-logo.png",
+		"166,164,169": "ure-navy-logo.png",
+		"25,35,67": "ure-white-logo.png",
+		"65,105,225": "ure-white-logo.png",
+		"0,158,196": "ure-navy-logo.png",
+		"4,106,56": "ure-navy-logo.png",
+		"74,103,65": "ure-white-logo.png",
+		"245,245,220": "ure-navy-logo.png",
+		"0,128,128": "ure-navy-logo.png",
+		"242,251,62": "ure-black-logo.png",
+		"150,75,0": "ure-white-logo.png",
+		"255,255,255": "ure-navy-logo.png"
+	},
+	"heat": {
+		"0,0,0": "ure-gradient-white-logo.png",
+		"108,104,104": "ure-gradient-white-logo.png",
+		"166,164,169": "ure-gradient-navy-logo.png",
+		"25,35,67": "ure-gradient-white-logo.png",
+		"65,105,225": "ure-gradient-white-logo.png",
+		"0,158,196": "ure-gradient-navy-logo.png",
+		"4,106,56": "ure-gradient-navy-logo.png",
+		"74,103,65": "ure-gradient-white-logo.png",
+		"245,245,220": "ure-gradient-navy-logo.png",
+		"0,128,128": "ure-gradient-navy-logo.png",
+		"242,251,62": "ure-gradient-navy-logo.png",
+		"150,75,0": "ure-gradient-white-logo.png",
+		"255,255,255": "ure-gradient-navy-logo.png"
+	},
+	"laser": {
+		"207,212,217": "ure-black-logo.png",
+		"25,35,67": "ure-laser-grey-logo.png",
+		"255,255,255": "ure-laser-grey-logo.png",
+		"0,0,0": "ure-laser-grey-logo.png"
+	},
+	"polarCamel": {
+		"207,212,217": "ure-black-logo.png",
+		"25,35,67": "ure-white-logo.png",
+		"255,255,255": "ure-black-logo.png",
+		"0,0,0": "ure-white-logo.png"
+	}
+}

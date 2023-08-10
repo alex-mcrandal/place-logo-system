@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Attach Logos</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width", initial-scale="1">
+
+	<link rel="stylesheet" href="styles.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+	<header>
+		<h1>Attach Logos</h1>
+	</header>
+	<form id="file-uploads-form" enctype="multipart/form-data">
+	<div class="content">
+		<div class="column side">
+			<h3>Upload Blank Item Here</h3>
+			<label for="blankimg">Blank Item: </label>
+			<input type="file" id="blankimg" name="blankimg">
+		</div>
+		<div class="column middle">
+			<div id="custom options">
+				<label for="useCustom">Use Custom Positioning: </label>
+				<input type="checkbox" id="useCustom" name="useCustom">
+				<label for="customWidth">Width (px): </label>
+				<input type="number" id="customWidth" name="customWidth">
+				<label for="customTop">Top (%): </label>
+				<input type="number" id="customTop" name="customTop">
+				<label for="customLeft">Left (%): </label>
+				<input type="number" id="customLeft" name="customLeft">
+				<br>
+				<label for="customSkew">Rotation (deg): </label>
+				<input type="number" id="customSkew" name="customSkew">
+				<label for="logoDropdown">Choose a logo: </label>
+				<select name="logoSelection" id="logoDropdown"></select>
+				<label for="production">Choose production: </label>
+				<select name="production" id="production">
+					<option value="embroidery">Embroidery</option>
+					<option value="heat">Heat</option>
+					<option value="laser">Laser</option>
+					<option value="polarCamel">Polar Camel</option>
+				</select>
+			</div>
+			<input type="button" id="file-uploads-submit" value="Create Design">
+			<div id="imagecontainer">
+				<img src="" id="blankitembackground">
+				<div id="imagerotate">
+					<img src="" id="newlogo">
+				</div>
+			</div>
+		</div>
+		<div class="column side">
+			<h3>Upload Logo Here</h3>
+			<label for="logoimg">Logo: </label>
+			<input type="file" id="logoimg" name="logoimg">
+		</div>
+	</div>
+	</form>
+	<footer>
+		<p>Copyright of AEC Online Store</p>
+	</footer>
+</body>
+
+<script src="logo-list.js"></script>
+<script src="eventhandlers.js"></script>
+</html>
